@@ -1,0 +1,10 @@
+.contact-section-main {
+    margin-top: 150px;
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid black;
+    margin-bottom:750px;
+    background-image: url('/images/backimg1.png');
+    background-size: cover;
+   
+}

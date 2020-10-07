@@ -1,0 +1,13 @@
+:root {
+  --primary: #4070f4;
+  --secondary: #242222;
+  --third: rgb(0, 255, 0);
+}
+
+.btn1 {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

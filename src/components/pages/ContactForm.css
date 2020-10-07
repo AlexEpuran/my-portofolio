@@ -1,0 +1,193 @@
+/* Contact */
+
+
+#contact-form{
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+
+.col-6-mail{
+    width: 30%;
+}
+
+.col-6-name {
+    width:30%;
+    margin-right: 19px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.col-6-message{
+width:61%;
+}
+.col-6-subject {
+    width: 61%;
+}
+
+.row-name-mail{
+   
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+/* .row-name-mail-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+} */
+
+.row-subject-message {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+.row{
+    flex-wrap: wrap;
+}
+
+form {
+    margin-top: 20px;
+    /* background: #1f2235; */
+}
+
+.formRow {
+    margin: 10px 0 20px 0;
+}
+
+.form-control {
+    outline: none;
+        width: 100%;
+}
+
+.formInput {
+    margin: 10px;
+    padding: 15px 10px;
+    background-color: #282c45;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.formInput:focus {
+    background-color: #282c45;
+    outline: none;
+    box-shadow: 0 0 0 2px #ff4a57;
+    color: white;
+}
+
+.formInput::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.formInput:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.formInput::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+.submit-btn {
+    background-color:transparent;
+    color: #fff !important;
+    padding: 12px 30px;
+    border: 4px solid var(--primary);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    outline: none !important;
+    font-size:1em;
+    font-weight:500;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    
+}
+
+.submit-btn:hover {
+    background-color: transparent;
+    color: #fff !important;
+    padding: 12px 30px;
+    border: 4px solid var(--third);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    outline: none !important;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.button-container {
+display: flex;
+ justify-content:center;
+ align-items:center
+}
+
+.errorMessage {
+    color: #ff4a57;
+    font-size: 14px;
+    margin: 10px;
+    padding: 0;
+}
+
+.submit-feedback {
+    color: #fff;
+    border-radius: 6px;
+    width: 200px;
+    margin-left: 75px;
+}
+
+.success {
+    background-color: #28a745;
+}
+
+.fail {
+    background-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+    .submit-message {
+        width: 125px;
+        margin-left: 200px;
+    }
+}
+
+.contact-info {
+    padding: 25px;
+    padding-left: 20px;
+    border-radius: 6px;
+    
+}
+
+.contact-info span {
+    font-weight: bold;
+    position: relative;
+    font-size: 16px;
+    top: -10px;
+    color: #fff;
+    left: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 0;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.contact-icon {
+    color: #ff4a57;
+    font-size: 32px;
+}
+
+/* End of Contact */

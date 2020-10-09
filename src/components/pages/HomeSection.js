@@ -21,6 +21,9 @@ export default function HomeSection({ id }) {
               wrapper="b"
             />
           </p>
+          <div className="home-contact-button">
+            <button className="btn1 btn1-home">Email Me</button>
+    </div>
           <div className="home-icons">
             <a href="https://www.facebook.com/AdelinaCimpan96/" target="_blank">
               <i className="fab fa-facebook fa-3x"></i>

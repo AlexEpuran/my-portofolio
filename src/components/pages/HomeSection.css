@@ -110,6 +110,17 @@ border: 1px solid #fff !important;
     margin-top: -200px;
 }
 
+.btn1-home{
+    margin-top: 15px;
+    transition:all 0.3s ease;
+}
+
+.btn1-home:hover {
+    background: transparent;
+    border: 3px solid var(--primary);
+}
+
+
 @media screen and (max-width: 575px) {
 
 .home-section-main {

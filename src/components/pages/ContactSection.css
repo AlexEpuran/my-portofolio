@@ -2,9 +2,42 @@
     margin-top: 150px;
     width: 100%;
     min-height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom:750px;
-    background-image: url('/images/backimg1.png');
-    background-size: cover;
-   
+    /* background-image: url('/images/backimg1.png'); */
+    /* background:var(--secondary) ; */
+background: rgb(29, 29, 29);
+background: -moz-linear-gradient(90deg, rgba(29, 29, 29, 1) 11%, rgba(47, 47, 47, 1) 44%, rgba(34, 34, 34, 1) 83%);
+background: -webkit-linear-gradient(90deg, rgba(29, 29, 29, 1) 11%, rgba(47, 47, 47, 1) 44%, rgba(34, 34, 34, 1) 83%);
+background: linear-gradient(90deg, rgba(29, 29, 29, 1) 11%, rgba(47, 47, 47, 1) 44%, rgba(34, 34, 34, 1) 83%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d1d1d", endColorstr="#222222", GradientType=1);
+}
+
+.main-title-container{
+    width: 100%;
+    
+    /* border-bottom: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    /* border-bottom: 4px solid var(--primary); */
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+.main-title::after{
+     content:'';
+     position:absolute;
+     width:150px;
+     height:4px;
+     background:var(--primary);
+     bottom:0;
+      left: 50%;
+      margin-left: -75px;
+}
+.main-title-span{
+    color: var(--primary);
 }

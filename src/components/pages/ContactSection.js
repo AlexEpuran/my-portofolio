@@ -5,8 +5,9 @@ import './ContactSection.css'
 export default function ContactSection({ id }) {
   return (
     <div className="contact-section-main" id={id}>
-      
-      <h1>CONTACT</h1>
+      <div className="main-title-container">
+        <h1 className='main-title'>Contact <span className="main-title-span">Me</span></h1>
+      </div>
       <ContactForm />
     </div>
   );

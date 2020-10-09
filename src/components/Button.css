@@ -5,9 +5,13 @@
 }
 
 .btn1 {
-  padding: 8px 20px;
-  border-radius: 2px;
+  background:transparent;
+  color: #fff;
+font-size: 1.1em;
+  padding: 10px 22px;
+  border-radius: 4px;
+  background:var(--primary);
+  border:3px solid var(--primary);
   outline: none;
-  border: none;
   cursor: pointer;
 }

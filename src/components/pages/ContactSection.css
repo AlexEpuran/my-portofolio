@@ -11,6 +11,7 @@ background: -moz-linear-gradient(90deg, rgba(29, 29, 29, 1) 11%, rgba(47, 47, 47
 background: -webkit-linear-gradient(90deg, rgba(29, 29, 29, 1) 11%, rgba(47, 47, 47, 1) 44%, rgba(34, 34, 34, 1) 83%);
 background: linear-gradient(90deg, rgba(29, 29, 29, 1) 11%, rgba(47, 47, 47, 1) 44%, rgba(34, 34, 34, 1) 83%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d1d1d", endColorstr="#222222", GradientType=1);
+background: #121212;
 }
 
 .main-title-container{

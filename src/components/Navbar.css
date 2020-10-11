@@ -17,9 +17,10 @@
   background: linear-gradient(90deg, rgba(14, 36, 49, 1) 10%, rgba(29, 61, 80, 1) 50%, rgba(14, 36, 49, 1) 79%);
   /* background: rgb(42, 80, 185);
    background: linear-gradient(90deg, rgba(42, 80, 185, 1) 10%, rgba(105, 139, 235, 1) 50%, rgba(38, 70, 158, 1) 79%); */
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease;
   background: #121212;
-  height: 80px;
+  background: var(--primary);
+  height: 70px;
 }
 
 .navbar-container {
@@ -31,12 +32,12 @@
 }
 
 .navbar-logo {
-  color: rgb(255, 0, 0);
+  color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -48,11 +49,16 @@
 }
 
 .logo-after-span {
-  color: var(--primary) !important;
+  color: var(--third) !important;
+  color: #fff !important;
 }
 
-.navbar-logo.active {
-  color: #fff;
+.logo-after-span.active {
+  color: #fff !important;
+}
+
+/* .navbar-logo.active {
+  color: rgb(102, 100, 100);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -60,7 +66,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-}
+} */
 
 .fa-typo3 {
   margin-left: 0.5rem;
@@ -79,7 +85,7 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: 70px;
 }
 
 
@@ -88,19 +94,21 @@
   font-family: 'Poppins',
     sans-serif !important;
   color: #fff;
+  font-size:17px;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav-links.active {
 
-  border-bottom: 5px solid var(--primary);
+  border-bottom: 5px solid var(--third);
   transition: all 0.2s ease-out;
+  font-weight: 500;
 
 }
 

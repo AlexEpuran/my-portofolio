@@ -3,10 +3,11 @@ import Navbar from './components/Navbar';
 import './App.css';
 import HomeSection from "./components/pages/HomeSection";
 import AboutSection from "./components/pages/AboutSection";
-import EducationSection from "./components/pages/EducationSection";
+import SkillsSection from "./components/pages/SkillsSection";
 import WorkSection from "./components/pages/WorkSection";
 import ContactSection from "./components/pages/ContactSection";
 import Footer from "./components/Footer";
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <Navbar />
       <HomeSection id="home" />
       <AboutSection id="about" />
-      <EducationSection id="education" />
+      <SkillsSection id="skills" />
       <WorkSection id="work" />
       <ContactSection id="contact" />
+     <ScrollToTop />
       <Footer />
     </div>
   );

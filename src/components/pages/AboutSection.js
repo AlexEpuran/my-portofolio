@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutSection.css";
+import Typical from "react-typical";
 
 export default function AboutSection({ id }) {
   return (
@@ -10,9 +11,38 @@ export default function AboutSection({ id }) {
         </h1>
       </div>
       <div className="picture-second-text-container">
-        <div className="picture-container"></div>
+        
+        <div className="picture-container">
+       
+          <img className='about-me-img' src="/images/about-me.jpg"></img>
+          <div class="overlay">
+            {/* <div class="text">Hello World</div> */}
+          </div>
+          <div className="short-desc">
+            <p className="language">HTML</p>
+            <p className="language">CSS</p>
+            <p className="language">JS</p>
+            <p className="language">REACT</p>
+          
+        </div>
+        </div>
         <div className="second-text-container">
-          <h1>TEST</h1>
+          {/* <h1 className='about-me-text1'>I'm Alex and love</h1> */}
+          <h1 className="about-me-text1">
+            I'm Alex and  {""}
+            <Typical
+              className="auto-type"
+              steps={["i'm a Dog Lover", 1500, "I love Gaming", 1000, "I love Coding", 1500]}
+              loop={Infinity}
+              wrapper="b"
+            />
+          </h1>
+          <p className='about-me-paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur quibusdam illo tempora molestiae obcaecati eum illum, doloribus quidem, aspernatur ex minima. Fugiat eaque laboriosam facilis corporis aut at ullam temporibus voluptas cupiditate quaerat nisi doloremque voluptates omnis, nam expedita consequatur similique ea et sed voluptatum consequuntur? Ut ipsam maxime saepe sit corrupti minus a commodi, debitis expedita officiis! Dolor saepe maxime accusamus quidem soluta placeat aut tempore, commodi ipsam praesentium repudiandae suscipit assumenda quos est quibusdam. Quibusdam neque similique quod molestias quae ipsa veniam! Assumenda a hic facere, perferendis, consequatur veritatis sequi necessitatibus error rerum recusandae officia voluptate aut!</p>
+         <div className="btn-container">
+          <form method="get" action="/files/Resume.docx">
+            <button className="btn2 btn2-about-me">Download Resume</button>
+          </form>
+          </div>
         </div>
       </div>
     </div>

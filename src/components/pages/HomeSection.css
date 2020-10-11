@@ -1,5 +1,5 @@
 .home-wrapper{
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
     padding:10px;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     /* margin-top:150px; */
-    width: 72%;
+    width: 90%;
     height: 500px;
     /* border: 1px solid rgb(255, 0, 0); */
 }
@@ -41,7 +41,7 @@ margin-bottom:10px;
 .home-text2 {
     color: #fff;
     font-size:4em;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 
 .home-text3 {
@@ -111,8 +111,11 @@ border: 1px solid #fff !important;
 }
 
 .btn1-home{
-    margin-top: 15px;
+    font-size: 18px !important;
+    font-weight: 500;
+    margin-top: 20px;
     transition:all 0.3s ease;
+    padding:12px 26px !important;
 }
 
 .btn1-home:hover {

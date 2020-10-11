@@ -22,7 +22,18 @@ export default function HomeSection({ id }) {
             />
           </p>
           <div className="home-contact-button">
-            <button className="btn1 btn1-home">Email Me</button>
+             <Link
+                to="contact"
+                
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <button className="btn1 btn1-home">Email Me</button>
+              </Link>
+            
     </div>
           <div className="home-icons">
             <a href="https://www.facebook.com/AdelinaCimpan96/" target="_blank">

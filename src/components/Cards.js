@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Cards.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Cards() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <>
-      <div className="card1">
+      <div data-aos="fade-right" className="card1">
         <div className="work-section-card1-container">
       <img className='card1-img' src="/images/home.png"></img>
           <p className="card1-p2">Home Page</p>
@@ -12,7 +18,7 @@ export default function Cards() {
           <a href="https://hungry-wiles-820e03.netlify.app/" target= "_blank"className="btn1 work-btn1"> See More </a>
       </div>
       </div>
-      <div className="card2">
+      <div data-aos="zoom-in" className="card2">
         <div className="work-section-card1-container">
       <img className='card1-img' src="/images/allmovies.png"></img>
           <p className="card1-p2">ALL MOVIES</p>
@@ -20,7 +26,7 @@ export default function Cards() {
            <a href="https://hungry-wiles-820e03.netlify.app/movies" target= "_blank"className="btn1 work-btn1"> See More </a>
       </div>
       </div>
-      <div className="card3">
+      <div data-aos="fade-left" className="card3">
         <div className="work-section-card1-container">
       <img className='card1-img' src="/images/moviesearch.png"></img>
           <p className="card1-p2">MOVIE SEARCH</p>
@@ -28,7 +34,7 @@ export default function Cards() {
            <a href="https://hungry-wiles-820e03.netlify.app/movie-search" target= "_blank"className="btn1 work-btn1"> See More </a>
       </div>
       </div>
-       <div className="card4">
+       <div data-aos="fade-right" className="card4">
         <div className="work-section-card1-container">
       <img className='card1-img' src="/images/moviedetails.png"></img>
           <p className="card1-p2">MOVIE DETAILS</p>
@@ -36,7 +42,7 @@ export default function Cards() {
             <a href="https://hungry-wiles-820e03.netlify.app/movie-details?id=5f84a38b49c4e40022fe052e" target= "_blank"className="btn1 work-btn1"> See More </a>
       </div>
       </div>
-       <div className="card5">
+       <div data-aos="zoom-in" className="card5">
         <div className="work-section-card1-container">
       <img className='card1-img' src="/images/login_register.png"></img>
           <p className="card1-p2">LOGIN PAGE</p>
@@ -44,7 +50,7 @@ export default function Cards() {
             <a href="https://hungry-wiles-820e03.netlify.app/join-us" target= "_blank"className="btn1 work-btn1"> See More </a>
       </div>
       </div>
-       <div className="card6">
+       <div data-aos="fade-left" className="card6">
         <div className="work-section-card1-container">
       <img className='card1-img' src="/images/addmovie.png"></img>
           <p className="card1-p2">ADD MOVIE</p>

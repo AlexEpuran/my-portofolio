@@ -33,7 +33,7 @@ background:var(--bkg);
      width:170px;
      height:4px;
      background:var(--primary);
-     bottom:0;
+     top:55px;
       left: 50%;
       margin-left: -85px;
 }

@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
-import './ContactForm.css'
+import './ContactForm.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 // Email validation
 const emailRegex = RegExp(
@@ -146,7 +148,7 @@ class ContactForm extends Component {
     const { formErrors } = this.state;
 
     return (
-      <div className="ContactForm">
+      <div data-aos="fade-left" className="ContactForm">
         <form id="contact-form" onSubmit={this.handleSubmit} noValidate>
           <div className="row-name-mail-container">
             <div className="row row-name-mail">

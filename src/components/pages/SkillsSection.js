@@ -1,10 +1,12 @@
 import React from "react";
 import "./SkillsSection.css";
 import Typical from "react-typical";
+import ParticlesSkillsSection from "../ParticlesSkillsSection"
 
 export default function SkillsSection({ id }) {
   return (
     <div className="skills-section-main" id={id}>
+      <ParticlesSkillsSection />
       <div className="skills-text-container">
         <h1 className='skills-main-text'><span className='skills-span'>My </span>Knowledge</h1>
       </div>
@@ -40,7 +42,7 @@ export default function SkillsSection({ id }) {
               </a>
             </li>
             <li>
-              <a className="navtext" href="#"><i class="fas fa-pencil-ruler fa-5x"></i>
+              <a className="navtext" href="#"><i class="fas fa-paint-brush fa-5x"></i>
                 <span>photoshop</span>
               </a>
             </li>

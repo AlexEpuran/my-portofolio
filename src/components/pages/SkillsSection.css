@@ -16,6 +16,7 @@
     /* border-bottom: 5px solid var(--primary); */
     padding: 10px;
     color: #fff;
+    margin-top: 10px;
 }
 
 .skills-span {
@@ -28,7 +29,7 @@
     width: 220px;
     height: 4px;
     background: var(--primary);
-    top: 55px;
+    top: 65px;
     left: 50%;
     margin-left: -110px;
 }
@@ -196,11 +197,11 @@
     color: var(--primary);
 }
 
-.fa-html5,.fa-css3,.fa-js-square,.fa-react,.fa-github-square,.fa-pencil-ruler{
+.fa-html5,.fa-css3,.fa-js-square,.fa-react,.fa-github-square,.fa-paint-brush{
     color:#FFF;
     opacity: 0.6;
 }
-.fa-html5:hover,.fa-css3:hover,.fa-js-square:hover,.fa-react:hover,.fa-github-square:hover,.fa-pencil-ruler:hover{
+.fa-html5:hover,.fa-css3:hover,.fa-js-square:hover,.fa-react:hover,.fa-github-square:hover,.fa-paint-brush:hover{
     color:#fff;
     transform:scale(1.2) rotate(360deg);
     color: var(--primary);

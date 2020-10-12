@@ -4,7 +4,7 @@
     position: relative;
     margin-top: 250px;
     width: 100%;
-    min-height: 700px;
+    min-height: 800px;
     /* border: 1px solid black; */
     flex-wrap: wrap;
 
@@ -85,8 +85,7 @@ margin-top:-225px ; */
 }
 
 .picture-container img {
-    height: 500px;
-    width: 400px;
+  
     border-radius: 10px;
 }
 
@@ -119,11 +118,20 @@ font-weight:500;
 
 /* TEXT ON IMAGE HOVER */
 .picture-container {
+   
     cursor: pointer;
     position: relative;
 }
 
 .about-me-img {
+     -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+    height: 500px;
+    width: 400px;
     cursor: pointer;
     opacity: 1;
     transition: 1s ease;
@@ -155,6 +163,7 @@ font-weight:500;
 }
 
 .picture-container:hover .about-me-img {
+    filter: blur(2px);
     cursor: pointer;
     opacity: 1;
     /* opacity: 0.5; */
@@ -165,11 +174,11 @@ font-weight:500;
     opacity: 1;
 }
 
-.picture-container:hover .overlay {
+.picture-container:hover .overlay7 {
     opacity: 1;
 }
 
-.overlay{
+.overlay7{
     border-radius:10px;
     position: absolute;
     top: 0;
@@ -180,7 +189,7 @@ font-weight:500;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #0000005b;
+    background-color: #00000054;
 }
 
 .picture-container-outer {

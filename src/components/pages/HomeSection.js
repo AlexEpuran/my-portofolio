@@ -4,10 +4,13 @@ import Typing from "react-typing-animation";
 import Typical from "react-typical";
 import Button from "../Button";
 import { Link, animateScroll as scroll } from "react-scroll";
+import ParticlesHomeSection from "../ParticlesHomeSection"
+
 
 export default function HomeSection({ id }) {
   return (
     <div className="home-wrapper">
+     <ParticlesHomeSection />
       <div className="home-section-main" id={id}>
         <div className="text-button-wrapper">
           <h2 className="home-text1">Hello, my name is</h2>
@@ -28,8 +31,8 @@ export default function HomeSection({ id }) {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={500}
+                offset={-80}
+                duration={1000}
               >
                 <button className="btn1 btn1-home">Email Me</button>
               </Link>

@@ -60,8 +60,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={500}
+                offset={-190}
+                duration={1000}
                 onClick={closeMobileMenu}
               >
                 Home
@@ -75,7 +75,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={500}
+                duration={1000}
                 onClick={closeMobileMenu}
               >
                 About
@@ -88,8 +88,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={500}
+                offset={-70}
+                duration={1000}
                 onClick={closeMobileMenu}
               >
                 Skills
@@ -102,8 +102,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-70}
-                duration={500}
+                offset={-90}
+                duration={1000}
                 onClick={closeMobileMenu}
               >
                 Work
@@ -116,8 +116,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-200}
-                duration={500}
+                offset={-70}
+                duration={1000}
                 onClick={closeMobileMenu}
               >
                 Contact

@@ -1,9 +1,9 @@
 .contact-section-main {
-    margin-top: 150px;
+    margin-top: 250px;
     width: 100%;
     min-height: 800px;
     /* border: 1px solid black; */
-    margin-bottom:350px;
+    /* margin-bottom:350px; */
     /* background-image: url('/images/backimg1.png'); */
     /* background:var(--secondary) ; */
 background:var(--bkg);
@@ -25,6 +25,7 @@ background:var(--bkg);
     padding: 10px;
     color: #fff;
     position: relative;
+    margin-top: 10px;
 }
 .main-title::after{
      content:'';
@@ -43,32 +44,62 @@ background:var(--bkg);
 .location-container{
     margin-left: 200px;
     margin-right: 20px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     border-right:4px solid var(--primary);
     height:500px;
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .contact-location-main-container{
     margin: 85px 0px 0px 0px;
     flex-wrap: wrap;
     display: flex;
-border: 1px solid #fff;
+/* border: 1px solid #fff; */
 justify-content:space-between;
+}
+
+.name-container,.address-container,.email-container{
+    /* border: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin: 0px 0px 40px 0px;
+
+}
+
+.fa-user,.fa-map-marker-alt,.fa-envelope,.fa-phone {
+    color: var(--primary);
+    padding: 15px;
+    font-size:25px;
+    margin-right: 10px;
+}
+
+.h1-p-container h1{
+    color: #fff;
+    font-size:20px
+}
+
+.h1-p-container p{
+    color: #fff;
+    font-size:17px
 }
 
 @media screen and (max-width:1339px){
     .contact-location-main-container{
     flex-wrap: wrap;
     display: flex;
-border: 1px solid #fff;
+/* border: 1px solid #fff; */
 justify-content:center;
 }
 
 .location-container{
     margin-left: 0px;
     margin-right: 20px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     border-right:4px solid var(--primary);
     height:500px;
     width: 400px;
@@ -80,7 +111,7 @@ justify-content:center;
     .contact-location-main-container{
     flex-wrap: wrap;
     display: flex;
-border: 1px solid #fff;
+/* border: 1px solid #fff; */
 justify-content:center;
 }
 
@@ -89,7 +120,7 @@ justify-content:center;
 @media screen and (max-width:920px){
 .location-container{
     margin-right: 0px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     border-right:4px solid var(--primary);
     height:500px;
     width: 400px;
@@ -99,7 +130,7 @@ justify-content:center;
 @media screen and (max-width:430px){
 .location-container{
     margin-right: 0px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     border-right:4px solid var(--primary);
     height:400px;
     width: 300px;

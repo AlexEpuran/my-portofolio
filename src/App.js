@@ -18,7 +18,7 @@ function App() {
       <SkillsSection id="skills" />
       <WorkSection id="work" />
       <ContactSection id="contact" />
-     <ScrollToTop />
+      <ScrollToTop />
       <Footer />
     </div>
   );

@@ -1,5 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
-import './ScrollToTop.css'
+import './ScrollToTop.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ScrollToTop = () => {
   const [isVisible, setVisiblity] = useState(false);
@@ -28,7 +30,7 @@ const ScrollToTop = () => {
   return (
     <Fragment>
       {isVisible && (
-        <button className="scroll-to-top" onClick={handleClick}>
+        <button data-aos="zoom-in" className="scroll-to-top" onClick={handleClick}>
           <i
             className="scroll-to-top__icon fa fa-angle-up"
             aria-hidden="true"

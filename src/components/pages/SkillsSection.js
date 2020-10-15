@@ -76,37 +76,37 @@ export default function SkillsSection({ id }) {
             <Typical
               
               className="auto-type-skills"
-              steps={["Advanced", 1000, "Advanced Level", 500]}
+              steps={["Advanced", 1000, "Advanced Level", 1500]}
               loop={Infinity}
               wrapper="b"
             />
           <Typical
               className="auto-type-skills"
-              steps={["Advanced", 1000, "Advanced Level", 500]}
+              steps={["Advanced", 1000, "Advanced Level", 1500]}
               loop={Infinity}
               wrapper="b"
             />
             <Typical
               className="auto-type-skills"
-              steps={["Medium", 1000, "Medium Level", 500]}
+              steps={["Mid - Level", 1000, "Mid - Level", 1500]}
               loop={Infinity}
               wrapper="b"
             />
             <Typical
               className="auto-type-skills"
-              steps={["Medium", 1000, "Medium Level", 500]}
+              steps={["Beginner", 1000, "Beginner Level", 1500]}
               loop={Infinity}
               wrapper="b"
             />
             <Typical
               className="auto-type-skills"
-              steps={["Medium", 1000, "Medium Level", 500]}
+              steps={["Mid - Level", 1000, "Mid - Level", 1500]}
               loop={Infinity}
               wrapper="b"
             />
             <Typical
               className="auto-type-skills"
-              steps={["Medium", 1000, "Medium Level", 500]}
+              steps={["Beginner", 1000, "Beginner Level", 1500]}
               loop={Infinity}
               wrapper="b"
             />

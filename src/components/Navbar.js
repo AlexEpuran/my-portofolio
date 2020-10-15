@@ -36,6 +36,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link
             to="home"
+            
             spy={true}
             smooth={true}
             offset={-190}
@@ -44,8 +45,10 @@ function Navbar() {
             activeClass="active"
             onClick={closeMobileMenu}
           >
-           
-            <span className='logo-before-span'>My </span>Portofo<span className='logo-after-span'>lio.</span>
+            {/* <div className="nav-logo-container"> */}
+              <img className="logo-menu-image active" src="images/LOGO1.png"></img>
+              {/* </div> */}
+            {/* <span className='logo-before-span'>My </span>Portofo<span className='logo-after-span'>lio.</span> */}
           
             {/* <i class="fab fa-typo3" /> */}
           </Link>
@@ -61,7 +64,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-190}
-                duration={1000}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 Home
@@ -75,7 +78,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={1000}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 About
@@ -89,7 +92,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={1000}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 Skills
@@ -102,8 +105,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-90}
-                duration={1000}
+                offset={-190}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 Work
@@ -117,7 +120,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={1000}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 Contact

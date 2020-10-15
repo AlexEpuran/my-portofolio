@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     /* margin-top:150px; */
-    width: 90%;
+    width: 85%;
     height: 500px;
     /* border: 1px solid rgb(255, 0, 0); */
 }
@@ -144,6 +144,7 @@ border: 1px solid #fff !important;
     position: relative;
     display: flex;
     align-items: center;
+    
     /* margin-top:150px; */
     width: 79%;
     height: 500px;
@@ -166,10 +167,32 @@ border: 1px solid #fff !important;
     top: 50% !important;
     margin-top: 170px !important;
    }
-
-
-
+.home-text1{
+font-weight: 600;
+color: #fff;
+margin-top:-150px;
 }
+.home-text2 {
+    color: #fff;
+    font-size:4em;
+    margin-bottom:10px;
+}
+
+.home-text3 {
+    position: absolute;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+    
+}
+.home-contact-button{
+    
+    
+    margin-top:110px;
+}
+}
+
+
 
 /* Sweep To Right */
 /* .fa-facebook {
@@ -219,7 +242,7 @@ border: 1px solid #fff !important;
         /* border: 1px solid rgb(253, 0, 0); */
         min-width: 220px;
         left: 0% !important;
-        margin-left: -0px !important;
+        margin-left: -15px !important;
         font-size: 12px !important;
         top: 50% !important;
         margin-top: 170px !important;

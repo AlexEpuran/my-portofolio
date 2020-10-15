@@ -11,7 +11,7 @@
 .footer-text{
  font-family: 'Poppins',
  sans-serif !important;
-  margin-top: -40px;
+  /* margin-top: -40px; */
   color: var(--primary);
   font-size: 1em;
 }

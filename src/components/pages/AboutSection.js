@@ -20,16 +20,16 @@ export default function AboutSection({ id }) {
         
         <div className="picture-container">
        
-          <img data-aos="fade-right" className='about-me-img' src="/images/about-me.jpg"></img>
+          <img data-aos="fade-right" className='about-me-img' src="/images/aboutme.png"></img>
           <div class="overlay2">
             {/* <div class="text">Hello World</div> */}
           </div>
           <div className="short-desc">
-            <p className="language">HTML</p>
+            {/* <p className="language">HTML</p>
             <p className="language">CSS</p>
             <p className="language">JS</p>
-            <p className="language">REACT</p>
-          
+            <p className="language">REACT</p> */}
+          <img data-aos="fade-right" className='about-me-img' src="/images/short.png"></img>
         </div>
         </div>
         <div  className="second-text-container">
@@ -43,7 +43,7 @@ export default function AboutSection({ id }) {
               wrapper="b"
             />
           </h1>
-          <p data-aos="zoom-in" className='about-me-paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur quibusdam illo tempora molestiae obcaecati eum illum, doloribus quidem, aspernatur ex minima. Fugiat eaque laboriosam facilis corporis aut at ullam temporibus voluptas cupiditate quaerat nisi doloremque voluptates omnis, nam expedita consequatur similique ea et sed voluptatum consequuntur? Ut ipsam maxime saepe sit corrupti minus a commodi, debitis expedita officiis! Dolor saepe maxime accusamus quidem soluta placeat aut tempore, commodi ipsam praesentium repudiandae suscipit assumenda quos est quibusdam. Quibusdam neque similique quod molestias quae ipsa veniam! Assumenda a hic facere, perferendis, consequatur veritatis sequi necessitatibus error rerum recusandae officia voluptate aut!</p>
+          <p data-aos="zoom-in" className='about-me-paragraph'>Courteous , hardworking , enthusiastic and great sense of humour. I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites.I like to code and develop my skills every day I also enjoy working both individually or as a team especially as a team because you know in a team you can achieve great things develop you as a person and learn something new every day I also like to help people when they need without expecting something in return because that's who i am. My goal is to become a full time Front-End Web-Developer because i like to see immediate results of my work.</p>
          <div className="btn-container">
           <form method="get" action="/files/Resume.docx">
             <button data-aos="fade-left" className="btn2 btn2-about-me">Download Resume</button>

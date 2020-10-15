@@ -25,11 +25,7 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   const changeBackground = () => {
-    if (window.scrollY >= 180) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+      window.scrollY >= 70 ? setNavbar(true) : setNavbar(false);
   };
 
   window.addEventListener("scroll", changeBackground);
@@ -39,15 +35,21 @@ function Navbar() {
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
           <Link
-            to=""
+            to="home"
+            
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-190}
             duration={500}
-            className="navbar-logo active"
+            className="navbar-logo"
+            activeClass="active"
             onClick={closeMobileMenu}
           >
-          <span className='logo-before-span'>My </span>Portofo<span className='logo-after-span'>lio</span>
+            {/* <div className="nav-logo-container"> */}
+              <img className="logo-menu-image active" src="images/LOGO1.png"></img>
+              {/* </div> */}
+            {/* <span className='logo-before-span'>My </span>Portofo<span className='logo-after-span'>lio.</span> */}
+          
             {/* <i class="fab fa-typo3" /> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -61,8 +63,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={500}
+                offset={-190}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 Home
@@ -76,7 +78,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={500}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 About
@@ -84,16 +86,16 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="education"
+                to="skills"
                 className="nav-links"
                 activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={700}
                 onClick={closeMobileMenu}
               >
-                Education
+                Skills
               </Link>
             </li>
             <li className="nav-item">
@@ -103,8 +105,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-70}
-                duration={500}
+                offset={-190}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 Work
@@ -117,8 +119,8 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-200}
-                duration={500}
+                offset={-70}
+                duration={700}
                 onClick={closeMobileMenu}
               >
                 Contact

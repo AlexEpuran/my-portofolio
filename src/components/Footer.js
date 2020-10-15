@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function Footer() {
   return (
-    <div className="footer-container" id="plm">
+    <div className="footer-container" id="footer">
       <h1 className="footer-text">My Portofolio </h1>
       <p className="footer-para">&copy; Copyright 2020</p>
     </div>

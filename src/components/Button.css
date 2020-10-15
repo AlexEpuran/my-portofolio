@@ -1,7 +1,11 @@
 :root {
   --primary: #4070f4;
+  /* --primary: crimson; */
   --secondary: #2b2a2a;
   --third: rgb(0, 255, 0);
+  --fourth:#424242;
+  --fifth:#7a7878;
+  --bkg:#111;
 }
 
 .btn1 {
@@ -12,6 +16,18 @@ font-size: 1.1em;
   border-radius: 4px;
   background:var(--primary);
   border:3px solid var(--primary);
+  outline: none;
+  cursor: pointer;
+}
+
+.btn2 {
+  background: transparent;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 10px 22px;
+  border-radius: 4px;
+  background: var(--primary);
+  border: 3px solid var(--primary);
   outline: none;
   cursor: pointer;
 }

@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%) !;
   background: transparent;
   height: 100px;
   display: flex;
@@ -11,51 +11,38 @@
   z-index: 999;
 }
 
-.logo-menu-image{
-  width:30px;
-  height:30px;
-animation-name: spin;
+.logo-menu-image {
+  width: 35px;
+  height: 35px;
+  animation-name: spin;
   animation-duration: 10000ms;
   animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-  /* transform: rotate(3deg); */
-   /* transform: rotate(0.3rad);/ */
-   /* transform: rotate(3grad); */ 
-   /* transform: rotate(.03turn);  */
+  animation-timing-function: linear;
 }
 
 @keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-/* .navbar-logo.active{
-   background_color:black;
-} */
-
-.nav-logo-container{
+.nav-logo-container {
   width: 50px !important;
   height: 50px !important;
-  /* border: 2px solid var(--third); */
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 .navbar.active {
-  background: var(--secondary);
-  background: rgb(14, 36, 49);
-  background: linear-gradient(90deg, rgba(14, 36, 49, 1) 10%, rgba(29, 61, 80, 1) 50%, rgba(14, 36, 49, 1) 79%);
-  /* background: rgb(42, 80, 185);
-   background: linear-gradient(90deg, rgba(42, 80, 185, 1) 10%, rgba(105, 139, 235, 1) 50%, rgba(38, 70, 158, 1) 79%); */
-  transition: all 0.3s ease;
-  background: #121212;
-  background: var(--primary);
+  position: fixed !important;
+  width: 100%;
+  transition: all 0.4s ease;
+  background: var(--primary) !important;
   height: 70px;
 }
 
@@ -81,7 +68,6 @@ animation-name: spin;
 
 .logo-before-span {
   white-space: pre;
-  /* color: var(--primary); */
 }
 
 .logo-after-span {
@@ -91,15 +77,6 @@ animation-name: spin;
 
 .logo-after-span.active {
   color: #fff !important;
-}
-/* 
-.navbar-logo.active {
- background-image: url('/images/favicon.png');
-} */
-
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
 }
 
 .nav-menu {
@@ -117,13 +94,10 @@ animation-name: spin;
   height: 70px;
 }
 
-
-
 .nav-links {
-  font-family: 'Poppins',
-    sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   color: #fff;
-  font-size:17px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -134,11 +108,9 @@ animation-name: spin;
 }
 
 .nav-links.active {
-
   border-bottom: 5px solid var(--third);
   transition: all 0.2s ease-out;
   font-weight: 500;
-
 }
 
 .nav-links:hover {
@@ -164,11 +136,10 @@ animation-name: spin;
   }
 
   .nav-menu {
-    
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
     top: 70px;
     left: -100%;
@@ -178,7 +149,7 @@ animation-name: spin;
   }
 
   .nav-menu.active {
-   
+    backdrop-filter: blur(7px);
     background: #000000da;
     left: 0;
     opacity: 1;
@@ -193,17 +164,11 @@ animation-name: spin;
     display: table;
   }
 
-  /* .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
-    border-radius: 0;
-  } */
-
   .navbar-logo {
     position: absolute;
     top: 50%;
-  left: 19px;
-  transform: translate(-50%, -50%);
+    left: 19px;
+    transform: translate(-50%, -50%);
   }
 
   .menu-icon {
@@ -211,8 +176,8 @@ animation-name: spin;
     position: absolute;
     position: absolute;
     top: 50%;
-  right: 19px;
-  transform: translate(-50%, -50%);
+    right: 19px;
+    transform: translate(-50%, -50%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -236,10 +201,4 @@ animation-name: spin;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
-
-  /* .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
-    transition: 250ms;
-  } */
 }

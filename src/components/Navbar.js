@@ -1,42 +1,35 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const [navbar, setNavbar] = useState(false);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 860) {
       setButton(false);
     } else {
       setButton(true);
     }
   };
-
   useEffect(() => {
     showButton();
   }, []);
-
   window.addEventListener("resize", showButton);
-
   const changeBackground = () => {
-      window.scrollY >= 70 ? setNavbar(true) : setNavbar(false);
+    window.scrollY >= 30 ? setNavbar(true) : setNavbar(false);
   };
-
   window.addEventListener("scroll", changeBackground);
-
   return (
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
           <Link
             to="home"
-            
             spy={true}
             smooth={true}
             offset={-190}
@@ -45,17 +38,22 @@ function Navbar() {
             activeClass="active"
             onClick={closeMobileMenu}
           >
-            {/* <div className="nav-logo-container"> */}
-              <img className="logo-menu-image active" src="images/LOGO1.png"></img>
-              {/* </div> */}
-            {/* <span className='logo-before-span'>My </span>Portofo<span className='logo-after-span'>lio.</span> */}
-          
-            {/* <i class="fab fa-typo3" /> */}
+            {}
+            <img
+              className="logo-menu-image active"
+              src="images/LOGO1.png"
+              alt="main-logo"
+            ></img>
+            {}
+            {}
+            {}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul
+            className={click ? "nav-menu active nav-menu-mobile" : "nav-menu"}
+          >
             <li className="nav-item active">
               <Link
                 to="home"
@@ -126,21 +124,12 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            {/* <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li> */}
+            {}
           </ul>
-          {/* {button && <Button buttonStyle="btn--outline">SIGN UP</Button>} */}
+          {}
         </div>
       </nav>
     </>
   );
 }
-
 export default Navbar;

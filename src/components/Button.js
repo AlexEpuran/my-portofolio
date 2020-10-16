@@ -1,10 +1,7 @@
-
+/** @format */
 
 import React from "react";
 import "./Button.css";
-
-
-
 function Button({ id }) {
   return (
     <div>

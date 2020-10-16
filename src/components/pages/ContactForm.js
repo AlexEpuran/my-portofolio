@@ -1,33 +1,23 @@
+/** @format */
+
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
-import './ContactForm.css';
-import Aos from "aos";
-import "aos/dist/aos.css";
-
-// Email validation
+import "./ContactForm.css";
 const emailRegex = RegExp(
   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 );
-
-// Form validation
 const formValid = ({ formErrors, ...rest }) => {
   let valid = true;
-
-  // Validate form errors being empty
   Object.values(formErrors).forEach((val) => {
     val.length > 0 && (valid = false);
   });
-
-  // Validate the form was filled out
   Object.values(rest).forEach((val) => {
     val === "" && (valid = false);
   });
-
   return valid;
 };
-
 class ContactForm extends Component {
   constructor(props) {
     super(props);
@@ -44,11 +34,10 @@ class ContactForm extends Component {
       },
     };
   }
-
   toastifySuccess() {
     toast.success("Message sent!", {
       position: "bottom-right",
-      autoClose: 5000,
+      autoClose: 2000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
@@ -56,11 +45,10 @@ class ContactForm extends Component {
       className: "submit-feedback success",
     });
   }
-
   toastifyFail() {
     toast.error("Message failed to send!", {
       position: "bottom-right",
-      autoClose: 5000,
+      autoClose: 20000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
@@ -68,29 +56,22 @@ class ContactForm extends Component {
       className: "submit-feedback fail",
     });
   }
-
   handleSubmit = (e) => {
     e.preventDefault();
-
     if (formValid(this.state)) {
-      // Handle form validation success
       const { name, email, subject, message } = this.state;
-
-      // Set template params
       let templateParams = {
         name: name,
         email: email,
         subject: subject,
         message: message,
       };
-
       emailjs.send(
         "service_lscplma",
         "template_ybfaa3m",
         templateParams,
         "user_vt1lauzqT08UqEawiWPac"
       );
-
       console.log(`
         --SUBMITTING--
         Name: ${name}
@@ -98,17 +79,13 @@ class ContactForm extends Component {
         Subject: ${subject}
         Message: ${message}
       `);
-
       this.toastifySuccess();
       this.resetForm();
     } else {
-      // Handle form validation failure
       console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
       this.toastifyFail();
     }
   };
-
-  // Function to reset form
   resetForm() {
     this.setState({
       name: "",
@@ -117,12 +94,10 @@ class ContactForm extends Component {
       message: "",
     });
   }
-
   handleChange = (e) => {
     e.preventDefault();
     const { name, value } = e.target;
     let formErrors = { ...this.state.formErrors };
-
     switch (name) {
       case "name":
         formErrors.name = value.length < 1 ? "Please enter your name." : "";
@@ -143,10 +118,8 @@ class ContactForm extends Component {
     }
     this.setState({ formErrors, [name]: value });
   };
-
   render() {
     const { formErrors } = this.state;
-
     return (
       <div data-aos="fade-left" className="ContactForm">
         <form id="contact-form" onSubmit={this.handleSubmit} noValidate>
@@ -168,7 +141,6 @@ class ContactForm extends Component {
                   <span className="errorMessage">{formErrors.name}</span>
                 )}
               </div>
-
               <div className="col-6-mail">
                 <input
                   type="email"
@@ -204,7 +176,6 @@ class ContactForm extends Component {
                 <span className="errorMessage">{formErrors.subject}</span>
               )}
             </div>
-
             <div className="col-6-message">
               <textarea
                 rows="10"
@@ -233,5 +204,4 @@ class ContactForm extends Component {
     );
   }
 }
-
 export default ContactForm;

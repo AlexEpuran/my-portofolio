@@ -10,7 +10,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   const showButton = () => {
-    if (window.innerWidth <= 860) {
+    if (window.innerWidth <= 900) {
       setButton(false);
     } else {
       setButton(true);
@@ -41,7 +41,7 @@ function Navbar() {
             {}
             <img
               className="logo-menu-image active"
-              src="images/LOGO1.png"
+              src="images/main-logo.png"
               alt="main-logo"
             ></img>
             {}

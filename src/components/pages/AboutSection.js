@@ -21,7 +21,7 @@ export default function AboutSection({ id }) {
           <img
             data-aos="fade-right"
             className="about-me-img"
-            src="/images/aboutme.png"
+            src="/images/aboutme-main-pic.jpg"
             alt="about me"
           ></img>
           <div class="overlay7">{}</div>
@@ -30,7 +30,7 @@ export default function AboutSection({ id }) {
             <img
               data-aos="fade-right"
               className={"about-me-img"}
-              src={"/images/short.png"}
+              src={"/images/aboutme-hover-pic.jpg"}
               alt={"about me"}
             />
           </div>

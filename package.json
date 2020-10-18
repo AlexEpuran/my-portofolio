@@ -11,6 +11,8 @@
     "aos": "^2.3.4",
     "emailjs-com": "^2.6.3",
     "react": "^16.13.1",
+    "react-cookie-banner": "^4.1.0",
+    "react-cookie-consent": "^5.2.0",
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.3.0",
     "react-router-dom": "^5.2.0",

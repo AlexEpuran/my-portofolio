@@ -10,9 +10,11 @@ import WorkSection from "./components/pages/WorkSection";
 import ContactSection from "./components/pages/ContactSection";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import CookieConsent from "./components/Cookies";
 function App() {
   return (
     <div className="app-main">
+      <CookieConsent/>
       <Navbar />
       <HomeSection id="home" />
       <AboutSection id="about" />

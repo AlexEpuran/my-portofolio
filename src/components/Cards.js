@@ -16,7 +16,7 @@ export default function Cards() {
           <p className="card1-p2">Home Page</p>
           <div class="overlay"></div>
           <a
-            href="https://hungry-wiles-820e03.netlify.app/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -47,7 +47,7 @@ export default function Cards() {
           <p className="card1-p2">ALL MOVIES</p>
           <div class="overlay2"></div>
           <a
-            href="https://hungry-wiles-820e03.netlify.app/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -78,7 +78,7 @@ export default function Cards() {
           <p className="card1-p2">MOVIE SEARCH</p>
           <div class="overlay3"></div>
           <a
-            href="https://hungry-wiles-820e03.netlify.app/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -87,7 +87,7 @@ export default function Cards() {
             See More{" "}
           </a>
           <a
-            href="https://hungry-wiles-820e03.netlify.app/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -109,7 +109,7 @@ export default function Cards() {
           <p className="card1-p2">MOVIE DETAILS</p>
           <div class="overlay4"></div>
           <a
-            href="https://hungry-wiles-820e03.netlify.app/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -140,7 +140,7 @@ export default function Cards() {
           <p className="card1-p2">LOGIN PAGE</p>
           <div class="overlay5"></div>
           <a
-            href="https://hungry-wiles-820e03.netlify.app/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -171,7 +171,7 @@ export default function Cards() {
           <p className="card1-p2">ADD MOVIE</p>
           <div class="overlay6"></div>
           <a
-            href="https://hungry-wiles-820e03.netlify.app/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"

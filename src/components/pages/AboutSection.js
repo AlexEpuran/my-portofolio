@@ -42,7 +42,7 @@ export default function AboutSection({ id }) {
             <Typical
               className="auto-type"
               steps={[
-                "i'm a Dog Lover",
+                "I'm a Dog Lover",
                 1500,
                 "I love Gaming",
                 1000,

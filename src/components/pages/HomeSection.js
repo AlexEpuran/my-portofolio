@@ -14,7 +14,7 @@ export default function HomeSection({ id }) {
           <h2 className="home-text1">Hello, my name is</h2>
           <h2 className="home-text2">Alex Epuran</h2>
           <p className="home-text3">
-            And i'm a {""}
+            And I'm a {""}
             <Typical
               className="auto-type"
               steps={["Web Developer", 1500, "Designer", 1000, "Dreamer", 1500]}

@@ -62,7 +62,7 @@ export default function AboutSection({ id }) {
             websites.I like to code and develop my skills every day I also enjoy
             working both individually or as a team especially as a team because
             you know in a team you can achieve great things develop you as a
-            person and learn something new every day I also like to help people
+            person and learn something new every day. I also like to help people
             when they need without expecting something in return because that's
             who i am. My goal is to become a full time Front-End Web-Developer
             because i like to see immediate results of my work.

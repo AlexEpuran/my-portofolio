@@ -47,7 +47,7 @@ export default function Cards() {
           <p className="card1-p2">ALL MOVIES</p>
           <div class="overlay2"></div>
           <a
-            href="https://venus.alexcoding.art/"
+            href="https://venus.alexcoding.art/movies"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -78,7 +78,7 @@ export default function Cards() {
           <p className="card1-p2">MOVIE SEARCH</p>
           <div class="overlay3"></div>
           <a
-            href="https://venus.alexcoding.art/"
+            href="https://venus.alexcoding.art/movie-search"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -140,7 +140,7 @@ export default function Cards() {
           <p className="card1-p2">LOGIN PAGE</p>
           <div class="overlay5"></div>
           <a
-            href="https://venus.alexcoding.art/"
+            href="https://venus.alexcoding.art/join-us"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -171,7 +171,7 @@ export default function Cards() {
           <p className="card1-p2">ADD MOVIE</p>
           <div class="overlay6"></div>
           <a
-            href="https://venus.alexcoding.art/"
+            href="https://venus.alexcoding.art/Addmovie"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"

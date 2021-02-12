@@ -120,7 +120,7 @@ export default function Cards() {
             See More{" "}
           </a>
           <a
-            href="https://github.com/AlexEpuran/simple_javascript_carousel"
+            href="https://github.com/AlexEpuran/venus"
             target="_blank"
             rel="noopener noreferrer"
           >

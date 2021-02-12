@@ -13,9 +13,8 @@ export default function Cards() {
       <div data-aos="fade-right" className="card1">
         <div className="work-section-card1-container">
           <img className="card1-img" src="/images/home.png" alt="home"></img>
-
-          <p className="card1-p2">SCIT Final Team Project</p>
-
+          <p className="card1-p2">Home Page</p>
+          <p className="card1-p2">Home sssPage</p>
           <div class="overlay"></div>
           <a
             href="https://venus.alexcoding.art/"
@@ -43,13 +42,13 @@ export default function Cards() {
         <div className="work-section-card1-container">
           <img
             className="card1-img"
-            src="/images/watchlist.png"
-            alt="moviesWatchlist"
+            src="/images/allmovies.png"
+            alt="allmovies"
           ></img>
-          <p className="card1-p2">React Movie WAtchlist</p>
+          <p className="card1-p2">ALL MOVIES</p>
           <div class="overlay2"></div>
           <a
-            href="https://mywatchlist.alexcoding.art/"
+            href="https://venus.alexcoding.art/movies"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -58,7 +57,7 @@ export default function Cards() {
             See More{" "}
           </a>
           <a
-            href="https://github.com/AlexEpuran/movie_watchlist"
+            href="https://github.com/AlexEpuran/venus"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -74,13 +73,13 @@ export default function Cards() {
         <div className="work-section-card1-container">
           <img
             className="card1-img"
-            src="/images/emojiapp.png"
+            src="/images/moviesearch.png"
             alt="movie search"
           ></img>
-          <p className="card1-p2">JavaScript Emoji App</p>
+          <p className="card1-p2">MOVIE SEARCH</p>
           <div class="overlay3"></div>
           <a
-            href="https://emojiesapp.alexcoding.art/"
+            href="https://venus.alexcoding.art/movie-search"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -89,7 +88,7 @@ export default function Cards() {
             See More{" "}
           </a>
           <a
-            href="https://github.com/AlexEpuran/emojapps"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -105,13 +104,13 @@ export default function Cards() {
         <div className="work-section-card1-container">
           <img
             className="card1-img"
-            src="/images/carousel.png"
+            src="/images/moviedetails.png"
             alt="details"
           ></img>
-          <p className="card1-p2">JavaScript Carousel</p>
+          <p className="card1-p2">MOVIE DETAILS</p>
           <div class="overlay4"></div>
           <a
-            href="https://carouseljs.alexcoding.art/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -120,7 +119,7 @@ export default function Cards() {
             See More{" "}
           </a>
           <a
-            href="https://github.com/AlexEpuran/simple_javascript_carousel"
+            href="https://github.com/AlexEpuran/venus"
             target="_blank"
             rel="noopener noreferrer"
           >

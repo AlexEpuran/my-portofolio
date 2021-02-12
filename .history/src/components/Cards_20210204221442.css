@@ -41,7 +41,7 @@
 .work-section-card1-container:hover .overlay {
   opacity: 1;
   filter: blur(5px);
-  background: rgba(12, 12, 12, 0.623);
+  background: rgba(12, 12, 12, 0.445);
   background-image: url(/images/home2.png);
 }
 
@@ -56,14 +56,14 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-image: url(/images/watchlist2.png);
+  background-image: url(/images/allmovies2.png);
 }
 
 .work-section-card1-container:hover .overlay2 {
   opacity: 1;
   filter: blur(5px);
-  background: rgba(12, 12, 12, 0.808);
-  background-image: url(/images/watchlist2.png);
+  background: rgba(12, 12, 12, 0.445);
+  background-image: url(/images/allmovies2.png);
 }
 
 .overlay3 {
@@ -77,14 +77,14 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-image: url(/images/emojiapp2.png);
+  background-image: url(/images/moviesearch2.png);
 }
 
 .work-section-card1-container:hover .overlay3 {
   opacity: 1;
   filter: blur(5px);
   background: rgba(12, 12, 12, 0.445);
-  background-image: url(/images/emojiapp2.png);
+  background-image: url(/images/moviesearch2.png);
 }
 
 .overlay4 {
@@ -98,14 +98,14 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-image: url(/images/carousel2.png);
+  background-image: url(/images/moviedetails2.png);
 }
 
 .work-section-card1-container:hover .overlay4 {
   opacity: 1;
   filter: blur(5px);
   background: rgba(12, 12, 12, 0.445);
-  background-image: url(/images/carousel2.png);
+  background-image: url(/images/moviedetails2.png);
 }
 
 .overlay5 {
@@ -152,8 +152,8 @@
 
 .card1-p2 {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 60%;
   padding: 10px;
   transform: translate(-50%, -50%);
   font-weight: 800;
@@ -164,8 +164,6 @@
   border: 5px solid #fff;
   z-index: 1;
   transition: top 0.5s ease !important;
-  background:rgba(0, 0, 0, 0.349);
-  
 }
 
 .work-section-card1-container:hover .card1-p2 {

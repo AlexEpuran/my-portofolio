@@ -108,10 +108,10 @@ export default function Cards() {
             src="/images/carousel.png"
             alt="details"
           ></img>
-          <p className="card1-p2">JavaScript Carousel</p>
+          <p className="card1-p2">JavaScript</p>
           <div class="overlay4"></div>
           <a
-            href="https://carouseljs.alexcoding.art/"
+            href="https://venus.alexcoding.art/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn1 work-btn1"
@@ -120,7 +120,7 @@ export default function Cards() {
             See More{" "}
           </a>
           <a
-            href="https://github.com/AlexEpuran/simple_javascript_carousel"
+            href="https://github.com/AlexEpuran/venus"
             target="_blank"
             rel="noopener noreferrer"
           >

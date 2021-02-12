@@ -17,9 +17,9 @@ export default function WorkSection({ id }) {
         </h1>
       </div>
       <div className="work-section-subtitle-container">
-        {/* <h1 data-aos="fade-up" className="work-section-subtitle">
+        <h1 data-aos="fade-up" className="work-section-subtitle">
           SCIT Final Team Project
-        </h1> */}
+        </h1>
       </div>
       <div className="work-section-cards-container">
         <Cards />

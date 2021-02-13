@@ -63,7 +63,7 @@
   opacity: 1;
   filter: blur(5px);
   background: rgba(12, 12, 12, 0.808);
-  background-image: url(/images/watchlist2.PNG);
+  background-image: url(/images/watchlist2.p);
 }
 
 .overlay3 {
@@ -77,14 +77,14 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-image: url(/images/emojiapp2.PNG;
+  background-image: url(/images/emojiapp2.png);
 }
 
 .work-section-card1-container:hover .overlay3 {
   opacity: 1;
   filter: blur(5px);
   background: rgba(12, 12, 12, 0.445);
-  background-image: url(/images/emojiapp2.PNG);
+  background-image: url(/images/emojiapp2.png);
 }
 
 .overlay4 {
@@ -98,14 +98,14 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-image: url(/images/carousel2.PNG);
+  background-image: url(/images/carousel2.png);
 }
 
 .work-section-card1-container:hover .overlay4 {
   opacity: 1;
   filter: blur(5px);
   background: rgba(12, 12, 12, 0.445);
-  background-image: url(/images/carousel2.PNG);
+  background-image: url(/images/carousel2.png);
 }
 
 .overlay5 {

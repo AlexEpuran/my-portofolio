@@ -43,7 +43,7 @@ export default function Cards() {
         <div className="work-section-card1-container">
           <img
             className="card1-img"
-            src="/images/watchlist.PNG"
+            src="././images/watchlist.png"
             alt="moviesWatchlist"
           ></img>
           <p className="card1-p2">React Movie Watchlist</p>
@@ -74,7 +74,7 @@ export default function Cards() {
         <div className="work-section-card1-container">
           <img
             className="card1-img"
-            src="/images/emojiapp.PNG"
+            src="././images/emojiapp.png"
             alt="movie search"
           ></img>
           <p className="card1-p2">JavaScript Emoji App</p>
@@ -105,7 +105,7 @@ export default function Cards() {
         <div className="work-section-card1-container">
           <img
             className="card1-img"
-            src="/images/carousel.PNG"
+            src="./images/carousel.png"
             alt="details"
           ></img>
           <p className="card1-p2">JavaScript Carousel</p>

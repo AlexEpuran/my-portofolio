@@ -74,7 +74,7 @@ export default function Cards() {
         <div className="work-section-card1-container">
           <img
             className="card1-img"
-            src="/images/emojiapp.PNG"
+            src="./images/emojiapp.PNG"
             alt="movie search"
           ></img>
           <p className="card1-p2">JavaScript Emoji App</p>

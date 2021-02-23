@@ -170,7 +170,7 @@ export default function Cards() {
             src="/images/addmovie.png"
             alt="addmovie"
           ></img>
-          <p className="card1-p2">SCIT Final Team Project</p>
+          <p className="card1-p2">ADD MOVIE</p>
           <div class="overlay6"></div>
           <a
             href="https://venus.alexcoding.art/Addmovie"

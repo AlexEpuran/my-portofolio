@@ -5,10 +5,10 @@ import "./Cards.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 export default function Cards() {
-	useEffect(() => {
-		Aos.init({ duration: 1000 });
-	}, []);
-	return (
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+  return (
 		<>
 			<div data-aos='fade-right' className='card1'>
 				<div className='work-section-card1-container'>
@@ -71,9 +71,9 @@ export default function Cards() {
 			<div data-aos='zoom-in' className='card5'>
 				<div className='work-section-card1-container'>
 					<img className='card1-img' src='/images/moviesearchh.png' alt='login'></img>
-					<p className='card1-p2'>React Movie Search</p>
+					<p className='card1-p2'>React Movie Reac</p>
 					<div class='overlay5'></div>
-					<a href='https://moviesearch.alexcoding.art' target='_blank' rel='noopener noreferrer' className='btn1 work-btn1'>
+					<a href='https://venus.alexcoding.art/join-us' target='_blank' rel='noopener noreferrer' className='btn1 work-btn1'>
 						{" "}
 						See More{" "}
 					</a>
@@ -85,9 +85,9 @@ export default function Cards() {
 			<div data-aos='fade-left' className='card6'>
 				<div className='work-section-card1-container'>
 					<img className='card1-img' src='/images/memegen.png' alt='addmovie'></img>
-					<p className='card1-p2'>React Meme Generator</p>
+					<p className='card1-p2'>SCIT Final Team Project</p>
 					<div class='overlay6'></div>
-					<a href='https://meme.alexcoding.art' target='_blank' rel='noopener noreferrer' className='btn1 work-btn1'>
+					<a href='https://venus.alexcoding.art/Addmovie' target='_blank' rel='noopener noreferrer' className='btn1 work-btn1'>
 						{" "}
 						See More{" "}
 					</a>
@@ -97,5 +97,5 @@ export default function Cards() {
 				</div>
 			</div>
 		</>
-	);
+  );
 }

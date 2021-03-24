@@ -126,7 +126,7 @@
   opacity: 1;
   filter: blur(5px);
   background: rgba(12, 12, 12, 0.445);
-  background-image: url(/images/moviesearchh2.jpg);
+  background-image: url(/images/login_register2.png);
 }
 
 .overlay6 {
@@ -140,14 +140,14 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-image: url(/images/memegen2.jpg);
+  background-image: url(/images/addmovie2.png);
 }
 
 .work-section-card1-container:hover .overlay6 {
   opacity: 1;
   filter: blur(5px);
   background: rgba(12, 12, 12, 0.445);
-  background-image: url(/images/memegen2.jpg);
+  background-image: url(/images/addmovie2.png);
 }
 
 .card1-p2 {

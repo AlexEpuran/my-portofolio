@@ -5,10 +5,10 @@ import "./Cards.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 export default function Cards() {
-	useEffect(() => {
-		Aos.init({ duration: 1000 });
-	}, []);
-	return (
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+  return (
 		<>
 			<div data-aos='fade-right' className='card1'>
 				<div className='work-section-card1-container'>
@@ -97,5 +97,5 @@ export default function Cards() {
 				</div>
 			</div>
 		</>
-	);
+  );
 }

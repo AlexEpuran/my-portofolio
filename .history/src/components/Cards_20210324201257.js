@@ -84,7 +84,7 @@ export default function Cards() {
 			</div>
 			<div data-aos='fade-left' className='card6'>
 				<div className='work-section-card1-container'>
-					<img className='card1-img' src='/images/memegen.PNG' alt='addmovie'></img>
+					<img className='card1-img' src='/images/memegen.png' alt='addmovie'></img>
 					<p className='card1-p2'>React Meme Generator</p>
 					<div class='overlay6'></div>
 					<a href='https://meme.alexcoding.art' target='_blank' rel='noopener noreferrer' className='btn1 work-btn1'>
